@@ -1,69 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
-*{
-    text-decoration: none;
-}
 
 body{
     font-family: 'Lato', sans-serif;
 }
 
-/* ========== navbar section starts here ========== */
-    
+
+
 nav{
-    background: #9376e0;
+    background-color: #9376e0;
 }
 .nav-container{
+
     min-height: 50px;
     display: flex;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
+    
 }
-
 .logo-container{
+
     display: flex;
     width: 50%;
 }
 
 .logo-container img{
-    width: 60px;
-    object-fit: cover;
+    width: 50px;
+    object-fit:cover;
     margin-right: 20px;
 }
-
 .logo-container p{
-    font-size: 2.5rem;
+    font-size: 30px;
+  
 }
-/*ok*/
+
 .hive-section{
     color: #e893cf;
 }
 
 .nav-items-container{
+
     width: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;    /* To keep nav item vertically center*/
+    align-items: center;
+    
 }
 
 .nav-items-container a{
-    font-size: 1.5rem;
-    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
 }
 
 .nav-items-container .login-btn{
-    background: #e893cf;
+    background-color: #e893cf;
     padding: 10px 20px;
     font-weight: 700;
     border-radius: 5px;
-    color: #000000;
+    color: black;
     text-align: center;
+    
 }
+
 
 
 /* ========== navbar section ends here ========== */
